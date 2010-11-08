@@ -22,7 +22,7 @@ Button left;
 Button[] buttons = new Button[4];
 
 public void setup() {
-  textFont(loadFont("CharterBT-Roman-30.vlw")); 
+  textFont(loadFont("FreeSansBold-30.vlw")); 
   size(640, 380, P3D);
   noStroke();
   stroke(0);
@@ -37,7 +37,7 @@ public void setup() {
 public void draw() {
   background(255);
   lights();
-  text("Guess the Shadow", 2, 35);
+  text("Guess the Shadow", 4, 35);
   fill(255);
   //draw all buttons
   for (int i = 0; i < buttons.length; i++) {
